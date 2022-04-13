@@ -1,0 +1,55 @@
+body, html{
+  height: 100%;
+}
+
+body{
+  background-image: url(../imagens/fundo.jpg);
+}
+
+.flex-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.login-screen{
+  background-color: #DDDDDD;
+  width: 330px;
+  height: 500px;
+  border-radius: 16px;
+}
+
+.title{
+  width:330px;
+  height: 60px;
+  padding-top: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif; 
+  color: #97979b;
+  text-align: center;
+}
+
+.form-box{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  font-family: 'Montserrat', sans-serif; 
+  font-size:0.7rem;
+  margin-top:4rem;
+}
+
+.forms{
+  border-radius: 6px;
+  border: 1px solid;
+  margin-bottom: 15px;
+}
+
+.form-label{
+  display:flex;
+  align-self:flex-start;
+  margin-left: 5rem;
+  margin-bottom:0.2rem;
+}
