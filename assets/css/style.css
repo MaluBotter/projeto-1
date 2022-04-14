@@ -3,7 +3,7 @@ body, html{
 }
 
 body{
-  background-image: url(../imagens/fundo.jpg);
+  background-image: linear-gradient(to right,#6910ca, #2576fd)
 }
 
 .flex-box{
@@ -15,8 +15,8 @@ body{
 
 .login-screen{
   background-color: #DDDDDD;
-  width: 330px;
-  height: 500px;
+  width: 20rem;
+  height: 31rem;
   border-radius: 16px;
 }
 
@@ -38,18 +38,116 @@ body{
   align-items:center;
   font-family: 'Montserrat', sans-serif; 
   font-size:0.7rem;
-  margin-top:4rem;
+  margin-top:2rem;
 }
 
 .forms{
-  border-radius: 6px;
-  border: 1px solid;
+  height: 1.7rem;
+  width: 10rem;
+  border-radius: 10px;
+  border: 0px;
   margin-bottom: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.75rem;
 }
 
 .form-label{
+  font-weight: bold;
   display:flex;
   align-self:flex-start;
   margin-left: 5rem;
   margin-bottom:0.2rem;
+  font-size: 0.8rem;  
+  color: #97979b;
+}
+
+.buttons-all{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.check{
+  padding-bottom: 0.2rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.checkbox-rem{
+  cursor: pointer;
+}
+
+.remember{
+  font-size: 0.7rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color:#97979b;
+}
+
+.login{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login-button{
+  height: 2.5rem;
+  width: 13rem;
+  background-image: linear-gradient(to right,red, orange);
+  font-size: 1.4em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold; 
+  color: white;
+  text-align: center;
+  border: 0px;
+  border-radius: 20px;
+  cursor: pointer;
+  align-self: center;
+}
+
+.login-button:hover{
+  opacity: 0.6;
+}
+
+.forgot-button{
+  background-color: #DDDDDD;
+  font-size: 0.7rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color:#97979b;
+  margin-top: 10px;
+  cursor: pointer;
+  border: 0px;
+}
+
+.forgot-button:hover{
+  opacity: 0.8;
+}
+
+.new-user{
+  display: flex;
+  margin-top: 85px;
+  
+}
+
+.new-hr{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.7rem;
+  color: #97979b;
+}
+
+.sign-button{
+  background-color: #DDDDDD;
+  font-size: 0.8rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color:#97979b;
+  cursor: pointer;
+  border: 0px;
+}
+
+.sign-button:hover{
+  opacity: 0.8;
 }
